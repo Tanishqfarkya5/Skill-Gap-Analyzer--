@@ -106,7 +106,6 @@ def home():
             }
     return render_template("index.html", result=result, roles=job_role_profiles.keys())
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+app = app 
 
 
