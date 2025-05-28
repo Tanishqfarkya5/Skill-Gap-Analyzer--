@@ -4,11 +4,10 @@ import re
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
 
-
-
 app = Flask(__name__)
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-MiniLM-L6-v2', device='cpu')
+
 
 job_role_profiles = {
     "Data Analyst": ["SQL", "Python", "Excel", "Tableau", "Power BI", "Data Visualization", "Statistics", "Data Cleaning", "R"],
@@ -106,8 +105,9 @@ def home():
                 "recommendations": recommendations
             }
     return render_template("index.html", result=result, roles=job_role_profiles.keys())
-import os
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))  # default to 10000
-    app.run(debug=False, host='0.0.0.0', port=port)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
+
+
