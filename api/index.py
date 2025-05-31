@@ -26,28 +26,73 @@ job_role_profiles = {
 }
 
 course_recommendations = {
+    # Data Analyst & Financial Analyst
     "SQL": ("SQL for Data Science – Coursera", "https://www.coursera.org/learn/sql-for-data-science"),
-    "Excel": ("Mastering Excel – Udemy", "https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/"),
-    "Tableau": ("Tableau A-Z – Udemy", "https://www.udemy.com/course/tableau10/"),
+    "Excel": ("Excel Skills for Business – Coursera", "https://www.coursera.org/specializations/excel"),
+    "Tableau": ("Tableau Data Visualization – Coursera", "https://www.coursera.org/learn/data-visualization-tableau"),
     "Power BI": ("Power BI Essentials – LinkedIn Learning", "https://www.linkedin.com/learning/power-bi-essential-training"),
-    "Statistics": ("Statistics for Data Science – edX", "https://www.edx.org/course/statistics-and-r"),
-    "Python": ("Python for Everybody – Coursera", "https://www.coursera.org/specializations/python"),
-    "Java": ("Java Programming Masterclass – Udemy", "https://www.udemy.com/course/java-the-complete-java-developer-course/"),
-    "C++": ("C++ for Beginners – Codecademy", "https://www.codecademy.com/learn/learn-c-plus-plus"),
-    "Git": ("Git & GitHub Crash Course – Udemy", "https://www.udemy.com/course/git-and-github-crash-course/"),
-    "SEO": ("SEO Specialization – Coursera", "https://www.coursera.org/specializations/seo"),
-    "Google Analytics": ("Google Analytics for Beginners – Google Academy", "https://analytics.google.com/analytics/academy/course/6"),
-    "Email Marketing": ("Email Marketing Basics – HubSpot Academy", "https://academy.hubspot.com/courses/email-marketing"),
-    "Figma": ("Figma UX Design – Coursera", "https://www.coursera.org/learn/figma-design"),
-    "Illustrator": ("Adobe Illustrator for Beginners – Udemy", "https://www.udemy.com/course/adobe-illustrator-cc-for-beginners/"),
-    "Tally": ("Tally ERP9 Training – Udemy", "https://www.udemy.com/course/tally-erp9/"),
-    "Accounting": ("Financial Accounting Fundamentals – Coursera", "https://www.coursera.org/learn/wharton-accounting"),
-    "Canva": ("Graphic Design with Canva – Skillshare", "https://www.skillshare.com/classes/Graphic-Design-Basics-The-Complete-Guide/1681639975"),
+    "Data Visualization": ("Fundamentals of Data Visualization – Coursera", "https://www.coursera.org/learn/fundamentals-of-data-visualization"),
+    "Statistics": ("Statistics with Python – Coursera", "https://www.coursera.org/specializations/statistics-with-python"),
+    "Data Cleaning": ("Data Cleaning in Python – DataCamp", "https://www.datacamp.com/courses/cleaning-data-in-python"),
+    "R": ("R Programming – Coursera", "https://www.coursera.org/learn/r-programming"),
     "Financial Modeling": ("Financial Modeling & Valuation – CFI", "https://courses.corporatefinanceinstitute.com/courses/financial-modeling-valuation-analyst-fmva-certification-program"),
-    "Communication": ("Business Communication Skills – Coursera", "https://www.coursera.org/learn/business-communication"),
+    "Accounting": ("Financial Accounting Fundamentals – Coursera", "https://www.coursera.org/learn/wharton-accounting"),
+    "Valuation": ("Valuation and Financial Analysis – Coursera", "https://www.coursera.org/learn/valuation-and-financial-analysis"),
+    "Risk Management": ("Introduction to Risk Management – Coursera", "https://www.coursera.org/learn/risk-management"),
+
+    # Software Engineer
+    "Python": ("Python for Everybody – Coursera", "https://www.coursera.org/specializations/python"),
+    "Java": ("Java Programming and Software Engineering – Coursera", "https://www.coursera.org/specializations/java-programming"),
+    "C++": ("Learn C++ – Codecademy", "https://www.codecademy.com/learn/learn-c-plus-plus"),
+    "Git": ("Git & GitHub Crash Course – freeCodeCamp", "https://www.freecodecamp.org/news/git-and-github-crash-course/"),
+    "OOP": ("Object-Oriented Programming in Java – Coursera", "https://www.coursera.org/learn/object-oriented-java"),
+    "Data Structures": ("Data Structures and Algorithms – Coursera", "https://www.coursera.org/specializations/data-structures-algorithms"),
+    "Algorithms": ("Algorithms Specialization – Coursera", "https://www.coursera.org/specializations/algorithms"),
+    "APIs": ("API Development – Udacity", "https://www.udacity.com/course/api-development--nd803"),
+    "Testing": ("Software Testing – Udacity", "https://www.udacity.com/course/software-testing--cs258"),
     "Docker": ("Docker for Beginners – Udemy", "https://www.udemy.com/course/docker-tutorial-for-beginners/"),
-    "Kubernetes": ("Kubernetes Essentials – Coursera", "https://www.coursera.org/learn/google-kubernetes-engine"),
-    "Google Ads": ("Google Ads Certification – Google Academy", "https://skillshop.withgoogle.com/partner/home")
+    "Kubernetes": ("Architecting with Kubernetes – Coursera", "https://www.coursera.org/learn/gcp-architecture-kubernetes"),
+
+    # Digital Marketer
+    "SEO": ("SEO Fundamentals – Coursera", "https://www.coursera.org/learn/seo-fundamentals"),
+    "Google Analytics": ("Google Analytics for Beginners – Google", "https://analytics.google.com/analytics/academy/course/6"),
+    "Email Marketing": ("Email Marketing – HubSpot Academy", "https://academy.hubspot.com/courses/email-marketing"),
+    "Content Writing": ("Content Strategy – Coursera", "https://www.coursera.org/learn/content-strategy"),
+    "Social Media": ("Social Media Marketing – Coursera", "https://www.coursera.org/specializations/social-media-marketing"),
+    "Copywriting": ("Copywriting for Beginners – Udemy", "https://www.udemy.com/course/copywriting-secrets/"),
+    "Canva": ("Graphic Design with Canva – Skillshare", "https://www.skillshare.com/en/classes/Canva-Masterclass-Beginner-to-Advanced/785490614"),
+    "Google Ads": ("Google Ads Certification – Skillshop", "https://skillshop.withgoogle.com/"),
+
+    # HR Specialist
+    "Recruiting": ("Technical Recruiting – LinkedIn Learning", "https://www.linkedin.com/learning/technical-recruiting"),
+    "Onboarding": ("Employee Onboarding – Coursera", "https://www.coursera.org/learn/onboarding-employees"),
+    "Communication": ("Business Communication – Coursera", "https://www.coursera.org/learn/business-communication"),
+    "HRIS Systems": ("HRIS Fundamentals – Udemy", "https://www.udemy.com/course/hris/"),
+    "Conflict Resolution": ("Conflict Management – Coursera", "https://www.coursera.org/learn/conflict-resolution-skills"),
+    "Payroll": ("Payroll Management – Udemy", "https://www.udemy.com/course/payroll-management-system/"),
+
+    # Commerce Graduate
+    "Tally": ("Tally ERP9 Training – Udemy", "https://www.udemy.com/course/tally-erp9/"),
+    "Business Communication": ("Business English Communication – Coursera", "https://www.coursera.org/learn/business-english-communication"),
+    "Marketing Basics": ("Introduction to Marketing – Coursera", "https://www.coursera.org/learn/wharton-marketing"),
+    "Taxation": ("Introduction to Taxation – Coursera", "https://www.coursera.org/learn/uva-darden-federal-income-taxation"),
+    "Banking Concepts": ("Introduction to Banking – edX", "https://www.edx.org/course/banking-fundamentals"),
+
+    # Graphic Designer
+    "Adobe Photoshop": ("Photoshop Fundamentals – Coursera", "https://www.coursera.org/learn/photoshop-fundamentals"),
+    "Illustrator": ("Adobe Illustrator CC – Udemy", "https://www.udemy.com/course/adobe-illustrator-cc-for-beginners/"),
+    "Figma": ("Figma UX Design – Coursera", "https://www.coursera.org/learn/figma-design"),
+    "Color Theory": ("Color Theory Basics – Udemy", "https://www.udemy.com/course/graphic-design-color-theory/"),
+    "Typography": ("Typography and Design – Coursera", "https://www.coursera.org/learn/typography"),
+    "Creativity": ("Creative Thinking – LinkedIn Learning", "https://www.linkedin.com/learning/creativity-for-all"),
+
+    # UX/UI Designer
+    "Wireframing": ("Wireframes for Web Design – Coursera", "https://www.coursera.org/lecture/web-design-strategy/wireframes-TzDZW"),
+    "User Research": ("UX Research at Scale – Coursera", "https://www.coursera.org/learn/ux-research-at-scale"),
+    "Prototyping": ("Prototyping and Design – Interaction Design Foundation", "https://www.interaction-design.org/courses/how-to-create-your-first-wireframe-and-prototype"),
+    "Design Thinking": ("Design Thinking for Innovation – Coursera", "https://www.coursera.org/learn/uva-darden-design-thinking-innovation"),
+    "HTML": ("HTML Basics – freeCodeCamp", "https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5"),
+    "CSS": ("CSS Basics – freeCodeCamp", "https://www.freecodecamp.org/learn/responsive-web-design/#basic-css")
 }
 
 def extract_text_from_pdf(file_stream):
