@@ -7,10 +7,15 @@ A Flask web application to analyze the skill gap between a candidate’s resume 
 🧰 Tech Stack
 
 Python
+
 Flask
+
 PyMuPDF (fitz)
+
 Sentence Transformers (NLP)
+
 NumPy
+
 HTML/CSS (Bootstrap optional)
 
 ---
