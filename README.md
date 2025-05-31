@@ -34,13 +34,13 @@ HTML/CSS (Bootstrap optional)
 ## 📸 Screenshots
 
 ### Upload Resume  
-![Upload Screenshot](screenshots/upload.png)
+![Upload Screenshot](screenshot/upload.png)
 
 ### Skill Gap Results  
-![Results Screenshot](screenshots/results.png)
+![Results Screenshot](screenshot/results.png)
 
 ### Course Recommendations  
-![Courses Screenshot](screenshots/course.png)
+![Courses Screenshot](screenshot/course.png)
 
 ---
 
