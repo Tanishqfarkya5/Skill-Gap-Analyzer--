@@ -1,10 +1,15 @@
 from flask import Flask, render_template, request
 import fitz  # PyMuPDF
+import os
 import re
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
 
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    template_folder=os.path.join(os.path.dirname(__file__), '..', 'templates')
+)
+
 
 model = SentenceTransformer('all-MiniLM-L6-v2', device='cpu')
 
@@ -106,6 +111,9 @@ def home():
             }
     return render_template("index.html", result=result, roles=job_role_profiles.keys())
 
-app = app 
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
+
 
 
