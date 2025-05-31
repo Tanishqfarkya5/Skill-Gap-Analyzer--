@@ -52,3 +52,15 @@ Contributions and feedback are welcome! Feel free to open issues or submit pull 
 git clone https://github.com/Tanishqfarkya5/skill-gap-analyzer-flask.git
 cd skill-gap-analyzer-flask
  ````
+
+2. Install dependencies
+````
+pip install -r requirements.txt
+````
+
+3. Run the Flask app
+````
+python skill_gap_analyzer_.py
+````
+
+4. Open your browser and navigate to `http://127.0.0.1:5000/`
